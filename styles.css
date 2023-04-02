@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(245, 245, 245, 0.753);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+img{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: double;
+    color: rgb(66, 22, 170);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(205, 228, 255);
+}
+.details
+{
+    margin-left: 8%;
+    margin-top: 7%;
+}
+.details h1{
+    font-size: 50px;
+    color:rgb(4, 110, 0) ;
+    margin-bottom: 20px;
+
+}
+span{
+    color: aqua;
+}
+.details p{
+    color: darkblue;
+    line-height: 20px;
+}
+.details a{
+    background: #222;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(245, 189, 231);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.about
+{
+    
+    background-color: rgb(251, 252, 200);
+
+}
+.skills li
+{
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    color: rgb(255, 174, 24);
+}
+.family p{
+    font-family: cursive;
+    color: rgb(255, 174, 24);
+}
+.hobbies li
+{
+    font-family: cursive;
+    color: rgb(255, 174, 24);  
+}
+.hobbies h2{
+    color: rgb(255, 174, 24); 
+}
+.edu h1{
+    color: rgb(255, 174, 24); 
+}
+.edu li{
+    font-family: cursive;
+    color: rgb(255, 174, 24); 
+}
+.lang h1{
+    font-family: cursive;
+    color: rgb(255, 174, 24); 
+}
+.lang li{
+    color: rgb(255, 174, 24); 
+}
